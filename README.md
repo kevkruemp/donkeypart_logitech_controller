@@ -21,7 +21,7 @@ To make this work, you need only to plug in the USB receiver that came with your
     pip install git+https://github.com/kevkruemp/donkeypart_logitech_controller.git
     ```
 
-3. Import the part at the top of your manage.py script. If you are using a PS4 controller, import `PS4JoystickController` instead. Same applies in the next step.
+3. Import the part at the top of your manage.py script.
     ```python
     from donkeypart_logitech_controller import LogitechJoystickController
     ```   
